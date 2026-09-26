@@ -474,10 +474,14 @@ dependencies = [
 [[package]]
 name = "increparse"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "40ded4dd0e61b4870008c6a024eafc1f9a04fae01b8142923dc0a211671e5aa0"
 
 [[package]]
 name = "increparse-lsp"
 version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c3583f522bb756fac394db9edac3fedd2efdc8877e1fae05ecc34fc3f9c529d0"
 dependencies = [
  "increparse",
  "lsp-server",
